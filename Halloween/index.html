@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abóboras de Halloween</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="virtual">Abóbora Virtual</h1>
+    <div class="tudo">
+    <div id="container">
+      <div id="pumpkin-canvas">
+        <canvas id="canvas" width="300" height="300"></canvas>
+      </div>
+      <div id="controls">
+        <h2 class="efeito">Efeitos Especiais</h2>
+        <div class="options">
+          <button style="color:  rgb(243, 122, 31);" onclick="applyEffect('glow')">Brilho</button>
+          <button style="color:  rgb(243, 122, 31);" onclick="applyEffect('shadow')">Sombra</button>
+        </div>
+        <h2 class="escolha">Escolha os Elementos</h2>
+        <div class="options">
+          <button style="color:  rgb(243, 122, 31);" onclick="addFeature('eyes')">Olhos</button>
+          <button style="color:  rgb(243, 122, 31);" onclick="addFeature('mouth')">Boca</button>
+          <button style="color:  rgb(243, 122, 31);" onclick="addFeature('nose')">Nariz</button>
+        </div>
+
+        <button style="color:  rgb(243, 122, 31);" onclick="saveImage()">Salvar Abóbora</button>
+      </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1b27;
+    color: #fff;
+    text-align: center;
+    background-image: url(./fundo\ halloween.jpg);
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pumpkin-canvas {
+    background-color: rgb(243, 122, 31);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#controls {
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.tudo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+    
+}
+
+.virtual{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-shadow: black 0.10em 0.1em 0.10em;
+}
+
+.efeito{
+    text-shadow: black 0.10em 0.1em 0.10em;
+}
+
+.escolha{
+    text-shadow: black 0.10em 0.1em 0.10em;
+}
