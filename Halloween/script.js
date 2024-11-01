@@ -1,7 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-// Função para desenhar a base da abóbora
 function drawPumpkin() {
     ctx.fillStyle = '#f37a1f';
     ctx.beginPath();
@@ -9,7 +8,6 @@ function drawPumpkin() {
     ctx.fill();
 }
 
-// Função para adicionar características (olhos, boca, nariz)
 function addFeature(feature) {
     ctx.fillStyle = 'black';
     if (feature === 'eyes') {
@@ -31,7 +29,6 @@ function addFeature(feature) {
     }
 }
 
-// Função para aplicar efeitos especiais
 function applyEffect(effect) {
     if (effect === 'glow') {
         ctx.shadowColor = '#ffaa00';
@@ -43,7 +40,6 @@ function applyEffect(effect) {
     drawPumpkin();
 }
 
-// Função para salvar a abóbora como imagem
 function saveImage() {
     const link = document.createElement('a');
     link.download = 'minha-abobora.png';
@@ -51,5 +47,4 @@ function saveImage() {
     link.click();
 }
 
-// Inicialização
 drawPumpkin();
